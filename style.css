@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 1, 44);
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h2 {
+    color: orange;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav p {
+    color: white;
+    margin: 20px;
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: -500px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    color: orange;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li {
+    padding-top: 20px;
+    letter-spacing: 3px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content .details {
+    color: white;
+    margin-top: -100px;
+}
+
+.details button {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.details button:hover {
+    color: orange;
+    background-color: white;
+}
+
+.details button a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.details button a:hover{
+    color: orange;
+}
+.details h1 {
+    color: orange;
+    padding-bottom: 18px;
+    margin-top: 50px;
+}
+
+.details h2 {
+    width: 220px;
+    margin-top: 10px;
+}
+
+.main-img {
+    padding-left: 20px;
+    margin-top: -150px;
+}
+
+.main-img img {
+    width: 500px;
+    height: 400px;
+}
+
+.aboutus {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.aboutus img {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    position: relative;
+    top: -170px;
+}
+
+.about-details {
+    margin-left: 100px;
+    width: 500px;
+    position: relative;
+    top: -200px;
+}
+
+.about-details h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-details h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-details p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-details button {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.about-details button:hover {
+    color: orange;
+    background-color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-details {
+    text-align: center;
+}
+
+.menu-details h3 {
+    font-size: 20px;
+    color: orange;
+}
+
+.menu-details h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.menu-img img {
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 2px 2px 10px white; */
+    border-radius: 20px;
+}
+
+.menu-img .img1 {
+    box-shadow: 2px 2px 12px white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-img ul li {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.service {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.service-details {
+    margin-top: 10px;
+}
+
+.service-details h3 {
+    color: orange;
+}
+
+.service-details h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.service-img {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.service-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.service-img h4,
+p {
+    color: white;
+    padding-top: 20px;
+}
+
+.service-img p {
+    font-size: 14px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.contactus {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contactus h3 {
+    color: orange;
+}
+
+.contactus .links ul li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.contactus .links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactus .links h2 {
+    color: orange;
+}
+
+.contact1 button {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contact1 button:hover {
+    color: orange;
+    background-color: white;
+}
+
+/* Menu lists */
+
+.containermenu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 45%;
+}
+
+.head h1 i{
+    color: orange;
+}
+.menulist {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+
+.menulist img {
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 2px 2px 10px white; */
+    border-radius: 20px;
+}
+
+.menulist div {
+    box-shadow: 2px 2px 12px white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    flex-basis: 30%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.menulist ul li {
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+.bottom{
+    margin-top: 400px;
+}
+
+@media screen and (max-width:600px) {
+    nav p {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .details h1 {
+        margin-top: -130px;
+        margin-left: 20px;
+    }
+
+    .details h2 {
+        margin-left: 20px;
+    }
+
+    .details button {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main-img img {
+        width: 450px;
+        height: 380px;
+        margin-top: 150px;
+    }
+
+    .aboutus {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        top: 200px;
+    }
+
+    .about-details {
+        width: 350px;
+    }
+
+    .menu {
+        text-align: center;
+        margin-top: 200px;
+        height: 100%;
+    }
+
+    .menu-img {
+        flex-direction: column;
+    }
+    .bottom{
+        height: 200px;
+        width: 100%;
+        margin-top: 1000px;
+    }
+}
